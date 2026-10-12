@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+#para{
+    color: brown;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+#heading1{
+    text-align: center;
+    color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#heading2{
+    display: flex;
+    order: -1;
+    align-self: flex-end;
+   
+}
+#section{
+    text-align: center;
+    color: brown;
+}
+.photo {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; yahan se hata dein */
+    width: 100%;
+    height: 300px;
+    padding: 20px 40px; /* Thodi side padding badha di taaki borders se na chipke */
+    box-sizing: border-box;
+    gap: 15px; /* Photos ke beech ka gap */
+}
+
+/* Text wale dabbe ki styling */
+.left-text {
+    margin-right: auto; /* JADU YAHAN HAI: Ye baaki sab ko right dhakel dega */
+    color: brown;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: underline; /* Agar design me underline ho toh */
+}
+#img1{
+    width:200px;
+    height:200px ;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: bold;
+   
+}
+#img2{
+    width:200px;
+    height:200px ;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: bold;
+}
+#img3{
+    width:200px;
+    height:200px ;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: bold;
+}
+#img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    color: brown;
+    text-align: center;
+}
+#your{
+    color: silver;
+}
+#logo{
+   display: flex;
+   justify-content: start;
+   font-size: 40px;
+    color: brown;
+    padding: 20px;
+}
